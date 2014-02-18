@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "David Cordero" => "david@corderoramirez.es" }
 
-  s.source       = { :git => "https://github.com/dcordero/TimeBlock.git" }
+  s.source       = { :git => "https://github.com/dcordero/TimeBlock.git", :tag => "1.0" }
   s.source_files	= 'TimeBlock/*.{h,m}'
 
   s.ios.deployment_target = '5.0' # there are usages of __weak
