@@ -16,7 +16,7 @@ traceElapsedTimeInBlock (@"Log message", ^{
 ```
 
 ```
-traceSlowExecutionBlock (@"Log message, 25, ^{
+traceSlowExecutionBlock (@"Log message", 25, ^{
   // Write here the code you want to log if it takes more than 25 seconds on runtime
 });
 ```
