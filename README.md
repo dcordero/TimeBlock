@@ -20,3 +20,10 @@ traceSlowExecutionBlock (@"Log message, 25, ^{
   // Write here the code you want to log if it takes more than 25 seconds on runtime
 });
 ```
+
+## Installation with CocoaPods
+
+### Podfile
+```
+pod 'TimeBlock', :git => 'https://github.com/dcordero/TimeBlock'
+```
