@@ -5,9 +5,10 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/dcordero/TimeBlock"
   s.license      = 'MIT'
-  s.author       = { "GitHub" => "david@corderoramirez.es" }
+  s.author       = { "David Cordero" => "david@corderoramirez.es" }
 
   s.source       = { :git => "https://github.com/dcordero/TimeBlock.git" }
+  s.source_files	= 'TimeBlock/*.{h,m}'
 
   s.ios.deployment_target = '5.0' # there are usages of __weak
   s.osx.deployment_target = '10.7'
